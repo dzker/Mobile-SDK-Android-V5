@@ -29,6 +29,11 @@ allprojects {
         maven {
             url KOTLIN_MAVEN
         }
+
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://repo.huaweicloud.com/repository/maven' }
+
         maven { url JITPACK_MAVEN_URL }
         repositories {
             flatDir {
